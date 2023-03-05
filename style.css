@@ -1,5 +1,50 @@
+@font-face {
+    font-family: genshin;
+    src: url('/fonts/zhcn.ttf');
+}
+
+:root {
+    --Steelblue: #7781BF ;
+    --Thistle: #E1D2E7;
+    --Black: #191D2C;
+    --Darkslateblue: #2E3762;
+    --Lightsteelblue: #B8C6F5;
+    --White: #FFFFFF ;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: genshin;
 }
+.container{
+    /* background-color: black; */
+    margin: 0 8em 0 8em;
+    height: 100%;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    /* background: grey; */
+}
+.row{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.col
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* h1{}
+h2{}
+h3{}
+h4{}
+h5{}
+h6{} */

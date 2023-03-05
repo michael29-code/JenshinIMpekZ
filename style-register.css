@@ -1,0 +1,92 @@
+
+.section-register{
+    /* background-color: var(--Steelblue); */
+    background-image: url('/assets/bg-register-login.PNG');
+    background-size: 100%;
+    height: 100vh;
+}
+
+.col-register1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+
+}
+
+.col-register2 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 40%;
+}
+
+.col-register1 .image-rectangel{
+    width: 100%;
+    height: 80%;
+    border-radius: 5%;
+    /* background: #000; */
+    background-image: url('assets/img-register.svg');
+    background-position: center;
+}
+
+.card
+{
+    background-color: white;
+    width: 85%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: left; */
+    border-radius: 5%;
+    padding: 3em;
+}
+
+.group-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.heading-card{
+    font-size: 1em; /* nanti buat variable */
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+.label-form{
+    font-size: 0.8em; /* nanti buat variable */
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.input-form{
+    padding: 0.8em;
+    border: 0;
+    border-bottom: 1px solid;
+    margin-bottom: 1em;
+}
+.input-date{
+    padding: 0.8em;
+    margin-bottom: 1em;
+    border: 0;
+    border-bottom: 1px solid;
+}
+
+
+.group-input-agreement{
+    font-size: 0.8em;
+    margin-bottom: 1em;
+}
+
+.btn-submit
+{
+    padding: 10px;
+    background-color: var(--Darkslateblue);
+    color: var(--White);
+}
+
+.row-image-register
+{
+    display: flex;
+    justify-content: center;
+}
