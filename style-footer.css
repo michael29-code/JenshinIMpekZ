@@ -1,0 +1,132 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.cdnfonts.com/css/hywenhei');
+
+body
+{
+    font-family: 'HYWenHei', sans-serif;
+
+}
+
+footer
+{
+    position: absolute;
+    background-color: #191D2C;
+    height: 100%;
+    width: 100vw;
+    color: #fff;
+    bottom: 0;
+}
+
+.footer-content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8em;
+}
+
+.footer-content .logo
+{
+    line-height: 2em;
+}
+
+.socials
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li
+{
+    margin: 0 10px;
+}
+
+.socials a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i
+{
+    font-size: 1.4rem;
+}
+
+.socials a i:hover
+{
+    color: aqua;
+}
+
+.legal
+{
+    text-align: center;
+    margin-bottom: 5em;
+}
+.legal img
+{
+    width: 16em;
+    margin-bottom: 3em;
+}
+
+.mid-content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.os
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.os li
+{
+    margin: 0 20px;
+}
+
+.os a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.os a i
+{
+    font-size: 3rem;
+}
+
+.hoyo-logo
+{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.hoyo-logo img
+{
+    width: 30em;
+}
+
+.footer-bottom
+{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    text-align: center;
+    bottom: 0;
+}
