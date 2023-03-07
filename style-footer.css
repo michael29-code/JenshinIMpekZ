@@ -15,26 +15,32 @@ body
 
 footer
 {
-    position: absolute;
     background-color: #191D2C;
     height: 100%;
     width: 100vw;
     color: #fff;
     bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 40px;
 }
-
+.row
+{
+    display: flex;
+    flex-direction: row;
+}
 .footer-content
 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 8em;
+    text-align: center;
 }
 
 .footer-content .logo
 {
-    line-height: 2em;
+    line-height: 2.1rem;
 }
 
 .socials
@@ -51,20 +57,38 @@ footer
     margin: 0 10px;
 }
 
-.socials a
+.socials li a
 {
     text-decoration: none;
     color: #fff;
-}
-
-.socials a i
-{
+    padding: 8px;
+    width: 35px;
     font-size: 1.4rem;
 }
-
-.socials a i:hover
+.socials a:hover
 {
     color: aqua;
+}
+.rules-policy
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.rules-policy li
+{
+    margin: 0 10px;
+}
+
+.rules-policy li a
+{
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+    width: 35px;
+    font-size: 1.4rem;
 }
 
 .legal
@@ -78,37 +102,43 @@ footer
     margin-bottom: 3em;
 }
 
+.legal p
+{
+    max-width: 1250px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
 .mid-content
 {
+    margin-bottom: 20px;
+}
+
+.mid-content ul
+{
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 
-.os
+.mid-content ul li
 {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0 3rem 0;
+    padding-right: 10px;
+    display: block;
+}
+
+.mid-content ul li a
+{
+    padding: 6px 15px;
+    text-decoration: none;
+    font-size: 3rem;
+    color: #fff;
 }
 
 .os li
 {
     margin: 0 20px;
-}
-
-.os a
-{
-    text-decoration: none;
-    color: #fff;
-}
-
-.os a i
-{
-    font-size: 3rem;
+    list-style-type: none;
 }
 
 .hoyo-logo
@@ -129,4 +159,85 @@ footer
     text-transform: capitalize;
     text-align: center;
     bottom: 0;
+}
+
+@media (max-width: 1024px)
+{
+    .row
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .mid-content ul
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-shrink: 1;
+        
+    }
+    .mid-content ul li
+    {
+        margin-bottom: 10px;
+    }
+    .socials
+    {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .socials li
+    {
+        margin: 0 10px;
+    }
+
+    .socials li a
+    {
+        text-decoration: none;
+        color: #fff;
+        padding: 8px;
+        width: 35px;
+        font-size: 20px;
+    }
+
+    .rules-policy li a
+    {
+        font-size: 20px;
+    }
+    .hoyo-logo img
+    {
+        width: 15em;
+    }
+    .legal img
+    {
+        width: 10em;
+        margin-bottom: 3em;
+    }
+    .mid-content ul li a
+    {   
+        text-decoration: none;
+        font-size: 2rem;
+        color: #fff;
+    }
+    .legal
+    {
+        text-align: center;
+        margin-bottom: 2em;
+    }
+    .legal img
+    {
+        width: 13em;
+        margin-bottom: 3em;
+    }
+
+    .legal p
+    {
+        max-width: 1250px;
+        margin: 10px auto;
+        line-height: 28px;
+        font-size: 14px;
+    }
 }
