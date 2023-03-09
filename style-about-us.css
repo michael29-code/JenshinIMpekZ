@@ -1,0 +1,175 @@
+*
+{
+    margin: 0;
+    display: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    position: absolute;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    scroll-snap-type: y mandatory;
+}
+
+.wrapper
+{
+    display: flex;
+    flex-direction: row;
+    width: 500vw;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+    /* background-image: url(assets/about-us/Rectangle\ 98.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover; */
+}
+
+.row-about
+
+{
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: center;
+}
+
+.row-about:nth-child(1)
+{
+
+}
+
+.row-about:nth-child(2)
+{
+    
+}
+
+.about-content
+{
+    height: 100vh;
+    width: 100vw;
+    font-family: sans-serif;
+}
+
+.features
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+.card-right
+{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+.card-left
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.card-center
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.card-center .card-text p
+{
+    text-align: left;
+    max-width: 600px;
+    margin-left: 50px;
+}
+
+.card-text h2
+{
+    text-align: center;
+}
+
+.card-left .card-text p
+{
+    text-align: left;   
+    max-width: 600px;
+    margin-left: 50px;
+}
+
+.card-text h2
+{
+    text-align: center;
+}
+
+.card-right .card-text p
+{
+    text-align: left;
+    max-width: 600px;
+    margin-right: 50px;
+}
+
+.features-title
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    margin-top: 5em;
+}
+
+.features-title h1
+{
+    padding: 1em 0 1em 0;
+    text-align: center;
+}
+
+::-webkit-scrollbar
+{
+    display: none;
+}
+
+.banner-about
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row-about;
+    justify-content: center;
+}
+
+
+.bg-banner
+{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+}

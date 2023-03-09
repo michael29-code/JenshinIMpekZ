@@ -24,7 +24,7 @@ footer
     right: 0;
     padding-top: 40px;
 }
-.row
+.row-footer
 {
     display: flex;
     flex-direction: row;
@@ -167,6 +167,7 @@ footer
     {
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
     }
     .mid-content ul
     {
@@ -175,8 +176,6 @@ footer
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        flex-shrink: 1;
-        
     }
     .mid-content ul li
     {
@@ -188,6 +187,7 @@ footer
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-wrap: wrap;
     }
     .socials li
     {
