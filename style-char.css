@@ -1,0 +1,21 @@
+.char-container
+{
+    height: 100vh;
+    width: 100vw;
+}
+
+.wrapper
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.char-card-container
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+}
