@@ -10,6 +10,49 @@
 </head>
 <body>
     <!-- navigation -->
+
+    <nav>
+        <div class="hamburgermenu">
+            <img src="/assets/icon/hamburger.svg" alt="" onclick="openNav()">
+        </div>
+        <div class="group-logo">
+            <img src="/assets/logo.svg" alt="">
+        </div>
+        <div class="btn-login-register">
+            <button class="btn-login">Login</button>
+            <button class="btn-register">Register</button>
+        </div>
+    </nav>
+    <div class="sidenav-desktop">
+        <ul class="full-oflist">
+            <li class="list-sidenav">
+                <a href="#">Home</a>
+            </li>
+            <li class="list-sidenav">
+                <a href="#">Character</a>
+            </li>
+            <li class="list-sidenav">
+                <a href="#">Maps</a>
+            </li>
+            <li class="list-sidenav">
+                <a href="#">About</a>
+            </li>
+            <li class="list-sidenav">
+                <img src="assets/Language.svg" alt="">
+            </li>
+        </ul>
+    </div>
+
+    <div id="navigation-mobile" class="sideNavMobile">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="link-contain">
+            <a href="#">Home</a>
+            <a href="#">Characters</a>
+            <a href="#">Maps</a>
+            <a href="#">About</a>
+        </div>
+    </div>
+
     <!-- end of navigation -->
     
     <div class="outer-wrapper">
@@ -78,16 +121,16 @@
                     </div>
                     <div class="col weapons-controller">
                         <div class="container-weapons">
-                            <img src="/assets/pedang.svg" alt="">
+                            <img src="/assets/assets-home/pedang.svg" alt="">
                             <h6>Mailed Flower</h6>
                         </div>
                         <div class="container-weapons">
-                            <img src="/assets/pedang2.svg" alt="">
+                            <img src="/assets/assets-home/pedang2.svg" alt="">
                             <h6>Mailed Flower</h6>
                         </div>
                         
                         <div class="container-weapons">
-                            <img src="/assets/pedang3.svg" alt="">
+                            <img src="/assets/assets-home/pedang3.svg" alt="">
                             <h6>Mailed Flower</h6>
                         </div>
                     </div>
@@ -96,4 +139,5 @@
         </div>
     </div>
 </body>
+<script src="script.js"></script>
 </html>

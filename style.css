@@ -43,6 +43,146 @@ section{
     /* height: 100%; */
 }
 
+
+nav
+{
+    z-index: 2;
+    width: 100%;
+    position: fixed;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3em;
+    padding-right: 5em;
+    border-radius: 0 0 25px 0;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.sidenav-desktop {
+    height: 100vh;
+    width: 5rem;
+    position: fixed;
+    z-index: 1;
+    border-radius: 0 0 25px 0;
+    overflow-x: hidden;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.group-logo
+{
+    padding: 5px;
+}
+
+.sidenav-desktop .full-oflist .list-sidenav a {
+    width: 100%;
+    text-decoration: none;
+    font-size: 1em;
+    transform: rotate(-0.25turn);
+    color: white;
+    display: block;
+}
+
+.full-oflist
+{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0 0 25px 0;
+}
+
+.list-sidenav
+{
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.list-sidenav img
+{
+    margin-bottom: 1em;
+}
+
+.btn-login-register
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 20%;
+    gap: 1em;
+}
+
+.btn-login
+{
+    border-radius: 5em;
+    padding: 5px;
+    width: 100%;
+    height: 60%;
+    border: 0;
+    background-color: var(--Darkslateblue);
+    color: var(--Thistle);
+}
+
+.btn-register
+{
+    border-radius: 5em;
+    padding: 5px;
+    width: 100%;
+    height: 60%;
+    border: 0;
+    background-color: var(--White);
+    color: var(--Darkslateblue);
+}
+
+.hamburgermenu {
+    display: none;
+}
+
+
+.sideNavMobile {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    background-color: var(--Darkslateblue);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+        backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(5px);
+}
+
+.sideNavMobile a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--Thistle);
+    display: block;
+    transition: 0.3s;
+}
+.sideNavMobile .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.link-contain
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
 @media screen and (max-width:1024px) {
     .container{
         margin: 0px;
@@ -50,6 +190,44 @@ section{
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .hamburgermenu {
+        display: block;
+    }
+
+    .group-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+
+    .group-logo img {
+        max-width: 100%;
+    }
+
+    .hamburgermenu img {
+        display: block;
+        max-width: 50%;
+        height: 100%;
+        color: "red";
+    }
+
+
+    nav {
+        justify-content: space-around;
+        width: 100vw;
+        padding: 0;
+    }
+
+    .btn-login-register {
+        display: none;
+        /* width: ; */
+    }
+
+    .sidenav-desktop {
+        display: none;
     }
 }
 
