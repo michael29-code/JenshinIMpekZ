@@ -26,10 +26,10 @@
     width: 500vw;
     transform: rotate(90deg) translateY(-100vh);
     transform-origin: top left;
-    /* background-image: url(assets/about-us/Rectangle\ 98.png);
+    background-image: url(assets/about-us/Rectangle\ 98.png);
     background-size: cover;
     background-repeat: no-repeat;
-    object-fit: cover; */
+    object-fit: cover;
 }
 
 .row-about
@@ -58,6 +58,7 @@
     height: 100vh;
     width: 100vw;
     font-family: sans-serif;
+    color: #fff;
 }
 
 .features
@@ -163,13 +164,140 @@
     display: flex;
     flex-direction: row-about;
     justify-content: center;
+    background-image: url(assets/image\ 17.png);
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
 
-.bg-banner
+.bg-banner 
 {
     position: absolute;
     z-index: -1;
     width: 100%;
     height: 100vh;
+}
+
+.bg-banner img
+{
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px)
+{
+    .container
+    {
+        width: 100%;
+        height: 100%;
+        transform: rotate(0) translateX(0);
+        transform-origin: none;
+        overflow-y: scroll;
+        overflow-x: none;
+        position: static;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        scroll-snap-type: x mandatory;
+    }
+
+    .wrapper
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        transform: rotate(0) translateY(0);
+        transform-origin: none;
+    }
+
+    .row-about
+    {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        scroll-snap-align: center;
+    }
+    
+    .banner-about
+    {
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+
+    .about-content
+    {
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .card-left
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+    .card-right
+    {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        text-justify:inter-ideograph;
+    }
+    .card-center
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+    .card-text
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    .card-left .card-text p
+    {
+        text-align: left;   
+        max-width: 400px;
+        margin-left: 0px;
+    }
+    .card-right .card-text p
+    {
+        text-align: center;   
+        max-width: 400px;
+        margin-left: 0px;
+    }
+
+    .card-center .card-text p
+    {
+        text-align: center;   
+        max-width: 400px;
+        margin-left: 0px;
+    }
+
+    .card-img
+    {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card-img img
+    {
+        width: 100%;
+        height: 100%;
+    }
 }
