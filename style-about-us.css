@@ -43,16 +43,6 @@
     scroll-snap-align: center;
 }
 
-.row-about:nth-child(1)
-{
-
-}
-
-.row-about:nth-child(2)
-{
-    
-}
-
 .about-content
 {
     height: 100vh;
@@ -247,7 +237,6 @@
         align-items: center;
         height: 100%;
         width: 100%;
-        text-justify:inter-ideograph;
     }
     .card-center
     {
@@ -294,10 +283,27 @@
         height: 100%;
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
     .card-img img
     {
+        width: 50%;
+        height: 100%;
+    }
+
+    .card-img-center
+    {
         width: 100%;
         height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-img-center img
+    {
+        width: 50%;
+        height: 50%;
     }
 }
