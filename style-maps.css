@@ -1,0 +1,100 @@
+.section-maps
+{
+    height: 100vh;
+    width: 100%;
+    background-color: wheat;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-maps:nth-child(1)
+{
+    background-image: url('assets/bg-maps-1.svg');
+}
+
+.section-maps:nth-child(2)
+{
+    background-image: url('assets/bg-maps-2.svg');
+}
+
+.container
+{
+    margin: 0 0 0 8em;
+    width: 80%;
+}
+
+.row-maps
+{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+}
+.row-maps h1
+{
+    padding: 10px 0 10px 0;
+    font-size: 5rem;
+}
+
+.col-maps
+{
+    width: 100%;
+}
+.containerbtn
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-maps-left
+{
+    width: 50%;
+}
+
+.btn-maps-right {
+    width: 50%;
+    display: flex;
+}
+
+.btn-seegalery
+{
+    padding: 1.5em;
+    width: 50%;
+    background-color: white;
+    border:3px solid wheat;
+}
+.btn-characters
+{
+    width: 50%;
+    border: 3px solid wheat;
+    padding: 1.5em;
+    background-color: white;
+}
+
+.previous-map-title
+{
+    color: white;
+}
+.next-map-title
+{
+    color: white;
+}
+
+.side-notion{
+    /* background-color: black; */
+    /* position: fixed; */
+    right: 8%;
+    height: 80vh;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

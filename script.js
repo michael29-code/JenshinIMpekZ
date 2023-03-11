@@ -1,3 +1,8 @@
+
+// setInterval(() => {
+    
+// }, 5000)
+
 function openNav() {
   document.getElementById("navigation-mobile").style.width = "100%";
   document.body.style.overflow = "hidden";

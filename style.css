@@ -17,6 +17,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: genshin;
+    scroll-behavior: smooth;
 }
 .container{
     margin: 0 8em 0 8em;
