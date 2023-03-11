@@ -141,7 +141,7 @@
 .container-character
 {
   height: 100%;
-  background-image: url('assets/new-character-2.svg');
+  /* background-image: url('assets/new-character-2.svg'); */
   background-size: contain;
   background-repeat: no-repeat;
   display: flex;

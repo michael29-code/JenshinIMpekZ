@@ -77,7 +77,7 @@
                 </div>
             </div>
             <!-- end of jumbotron -->
-            <div class="section">
+            <div class="section" >
                 <div class="characters-group">
                     <div class="characters-group-title">
                         <div class="character-btn">
@@ -89,11 +89,13 @@
                     </div>
                     <div class="character-slider">
                         <div class="navigation-character-slider-left">
-                            <img src="/assets/icon/arrow-left.svg" alt="">
-                        </div>
-                        <div class="container-character">
+                            <img src="/assets/icon/arrow-left.svg" alt="" id="btn-left"  >
+                            <!-- <button id="btn-left">Left</button> -->
+                        </div> 
+                       
+                        <div class="container-character" id="character">
                             <div class="character-group-left">
-                                <h1>Kelee</h1>
+                                <h1 id="characterName"></h1>
                                 <div class="stars">
                                     <img src="/assets/icon/stars.svg" alt="">
                                     <img src="/assets/icon/stars.svg" alt="">
@@ -104,12 +106,12 @@
                                 </div>
                             </div>
                             <div class="character-group-right">
-                                <p>A member of the Eremites, a mercenary organization that roams the sands of Sumeru. Valiant and powerful, she enjoys
-                                great fame amongst her fellow Eremites.</p>
+                                <p id="text-character"></p>
                             </div>
                         </div>
                         <div class="navigation-character-slider-right">
-                            <img src="/assets/icon/arrow-right.svg" alt="">
+                            <img src="/assets/icon/arrow-right.svg" alt="" id="btn-right" ">
+                            <!-- <button id="btn-right">Right</button> -->
                         </div>
                     </div>
                 </div>

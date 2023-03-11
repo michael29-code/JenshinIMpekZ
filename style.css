@@ -183,6 +183,16 @@ nav
     height: 100%;
 }
 
+.btn-left
+{
+    cursor: pointer;
+}
+
+.btn-right
+{
+    cursor: pointer;
+}
+
 @media screen and (max-width:1024px) {
     .container{
         margin: 0px;
