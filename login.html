@@ -20,22 +20,26 @@
                 <div class="col-register2">
                     <div class="card">
                         <h1 class="heading-card">Login</h1>
-                        <!-- <form action=""> -->
-                       
-                        <div class="group-input">
-                            <label for="" class="label-form">Email</label>
-                            <input type="email" class="input-form" placeholder="example@gmail.com">
-                        </div>
-                        <div class="group-input">
-                            <label for="" class="label-form">Password</label>
-                            <input type="password" class="input-form" placeholder="your password">
-                        </div>
-                        <div class="group-input">
-                            <a href="/register.html" class="label-form">Register</a>
-                        </div>
-          
-                        <button class="btn-submit">Continue</button>
-                        <!-- </form> -->
+                        
+                        <form>
+                            <div class="group-input">
+                                <label for="" class="label-form" id="emailLoginLabel">Email</label>
+                                <input type="email" class="input-form" placeholder="example@gmail.com" id="inputEmailLogin">
+                                <span class="error-text" id="errorTextEmailLogin"></span>
+                            </div>
+                            <div class="group-input">
+                                <label for="" class="label-form" id="passwordLoginLabel">Password</label>
+                                <input type="password" class="input-form" placeholder="your password" id="inputPasswordLogin" autocomplete="on">
+                                <span class="error-text" id="errorTextPasswordLogin"></span>
+                            </div>
+                            <div class="group-input">
+                                <a href="/register.html" class="label-form">Register</a>
+                            </div>
+            
+                            <div class="group-input">
+                                <button class="btn-submit" id="btnSubmitLogin">Continue</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
                 <div class="col-register1">
@@ -44,10 +48,10 @@
             </div>
             <div class="row-register-footer">
                 <div class="content-footer">
-                    <p class="list-label">Home</p>
-                    <p class="list-label">Character</p>
-                    <p class="list-label">Maps</p>
-                    <p class="list-label">About</p>
+                    <p class="list-label"><a href="/index.html">Home</a></p>
+                    <p class="list-label"><a href="/character.html">Character</a></p>
+                    <p class="list-label"><a href="/maps.html">Maps</a></p>
+                    <p class="list-label"><a href="/about-us.html">About</a></p>
                 </div>
                 <div class="content-footer">
                     <img src="/assets/icon/discord.svg" alt="" srcset="">
@@ -58,15 +62,14 @@
                     <img src="/assets/icon/reddit.svg" alt="" srcset="">
                 </div>
                 <div class="content-footer">
-                    <p class="list-label">Home</p>
-                    <p class="list-label">Character</p>
-                    <p class="list-label">Maps</p>
-                    <p class="list-label">About</p>
+                    <p class="list-label">Privacy Policy</p>
+                    <p class="list-label">Terms of Serive</p>
+                    <p class="list-label">Contact Us</p>
                 </div>
             </div>
         </div>
     </section>
-
+    <script src="/script-login.js"></script>
 </body>
 
 </html>

@@ -64,23 +64,17 @@
     padding-top: 0.2em;
     padding-bottom: 0.2em;
 }
-.input-form{
-    padding: 0.8em;
-    border: 0;
-    border-bottom: 1px solid;
-    margin-bottom: 1em;
-}
+
 .input-date{
-    padding: 0.8em;
-    margin-bottom: 1em;
+    padding: 0.8em 0 0.8em 0;
     border: 0;
     border-bottom: 1px solid;
 }
+
 
 
 .group-input-agreement{
     font-size: 0.8em;
-    margin-bottom: 1em;
 }
 
 .btn-submit
@@ -126,6 +120,10 @@
     padding: 0 1em 0 1em;
 }
 
+.list-label a {
+    text-decoration: none;
+    color: var(--Lightsteelblue);
+}
 @media screen and (max-width: 1024px) {
         .section-register {
             /* background-color: black; */
@@ -197,12 +195,10 @@
             padding: 0.8em;
             border: 0;
             border-bottom: 1px solid;
-            margin-bottom: 1em;
         }
         
         .input-date {
             padding: 0.8em;
-            margin-bottom: 1em;
             border: 0;
             border-bottom: 1px solid;
         }
@@ -210,7 +206,6 @@
     
         .group-input-agreement {
             font-size: 0.8em;
-            margin-bottom: 1em;
         }
      
         .btn-submit {

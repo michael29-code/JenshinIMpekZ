@@ -46,10 +46,7 @@
     align-items: stretch;
 }
 
-.group-input {
-    display: flex;
-    flex-direction: column;
-}
+
 
 .heading-card {
     font-size: 1em;
@@ -59,40 +56,6 @@
     margin-bottom: 2em;
 }
 
-.label-form {
-    font-size: 0.8em;
-    /* nanti buat variable */
-    padding-top: 0.2em;
-    padding-bottom: 0.2em;
-}
-
-.input-form {
-    padding: 0.8em;
-    border: 0;
-    border-bottom: 1px solid;
-    margin-bottom: 1em;
-}
-
-.input-date {
-    padding: 0.8em;
-    margin-bottom: 1em;
-    border: 0;
-    border-bottom: 1px solid;
-}
-
-
-.group-input-agreement {
-    font-size: 0.8em;
-    margin-bottom: 1em;
-}
-
-.btn-submit {
-    padding: 1.5em;
-    background-color: var(--Darkslateblue);
-    color: var(--White);
-    border: none;
-    border-radius: 1em;
-}
 
 .row-image-register {
     display: flex;
@@ -126,6 +89,13 @@
 .list-label {
     color: var(--Lightsteelblue);
     padding: 0 1em 0 1em;
+    
+}
+
+.list-label a
+{
+    text-decoration: none;
+    color: var(--Lightsteelblue);
 }
 
 @media screen and (max-width: 1024px) {

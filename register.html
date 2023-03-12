@@ -21,42 +21,58 @@
                 <div class="col-register2">
                     <div class="card">
                         <h1 class="heading-card">Register</h1>
-                        <!-- <form action=""> -->
-                        <div class="group-input">
-                            <label for="" class="label-form">Nama</label>
-                            <input type="text" class="input-form" placeholder="your name">
-                        </div>
-                        <div class="group-input">
-                            <label for="" class="label-form">Email</label>
-                            <input type="email" class="input-form" placeholder="example@gmail.com">
-                        </div>
-                        <div class="group-input">
-                            <label for="" class="label-form">Password</label>
-                            <input type="password" class="input-form" placeholder="your password">
-                        </div>
-                        <div class="group-input">
-                            <label for="" class="label-form">Re-Password</label>
-                            <input type="passsword" class="input-form" placeholder="re password">
-                        </div>
-                        <div class="group-input">
-                            <label for="" class="label-form">Age</label>
-                            <input type="date" class="input-date">
-                        </div>
-                        <div class="group-input-agreement">
-                            <input type="checkbox">
-                            <label for="">I agree to the terms and conditions as set out by the user agreement.</label>
-                        </div>
-                        <button class="btn-submit">Continue</button>
-                        <!-- </form> -->
+                        <form>
+                            <div class="group-input">
+                                <label for="" class="label-form" id="namaRegisterLabel">Nama</label>
+                                <input type="text" class="input-form" placeholder="your name" id="namaRegister">
+                                <span class="error-text" id="errorTextNamaRegister"></span>
+                            </div>
+                            <div class="group-input">
+                                <label for="" class="label-form" id="emailRegisterLabel">Email</label>
+                                <input type="email" class="input-form" placeholder="example@gmail.com" id="emailRegister">
+                                <span class="error-text" id="errorTextEmailRegister"></span>
+
+                            </div>
+                            <div class="group-input">
+                                <label for="" class="label-form" id="passwowrdRegisterLabel">Password</label>
+                                <input type="password" class="input-form" placeholder="your password" id="passwordRegister" autocomplete="on">
+                                <span class="error-text" id="errorTextPasswordRegister"></span>
+
+                            </div>
+                            <div class="group-input">
+                                <label for="" class="label-form" id="re_passwordRegisterLabel">Re-Password</label>
+                                <input type="passsword" class="input-form" placeholder="re password" id="re_passwordRegister" autocomplete="on">
+                                <span class="error-text" id="errorTextRePasswordRegister"></span>
+
+                            </div>
+                            <div class="group-input">
+                                <label for="" class="label-form" id="ageRegisterLabel">Age</label>
+                                <input type="date" class="input-date" id="ageRegister">
+                                <span class="error-text" id="errorTextAgeRegister"></span>
+
+                            </div>
+                            <div class="group-input-agreement">
+                                <input type="checkbox" id="agreementRegistere">
+                                <label for="" id="agreementRegisterLabel">I agree to the terms and conditions as set out by the user agreement.</label><br>
+                                <span class="error-text" id="errorTextAgreementRegister"></span>
+
+                            </div>
+                            <div class="group-input">
+                                <button class="btn-submit" id="btnSubmitRegister">Continue</button>
+                            </div>
+                            <div class="group-input">
+                                <a href="/login.html" class="label-form">Login</a>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
             <div class="row-register-footer">
                 <div class="content-footer">
-                    <p class="list-label">Home</p>
-                    <p class="list-label">Character</p>
-                    <p class="list-label">Maps</p>
-                    <p class="list-label">About</p>
+                    <p class="list-label"><a href="/index.html">Home</a></p>
+                    <p class="list-label"><a href="/character.html">Character</a></p>
+                    <p class="list-label"><a href="/maps.html">Maps</a></p>
+                    <p class="list-label"><a href="/about-us.html">About</a></p>
                 </div>
                 <div class="content-footer">
                     <img src="/assets/icon/discord.svg" alt="" srcset="">
@@ -67,14 +83,14 @@
                     <img src="/assets/icon/reddit.svg" alt="" srcset="">
                 </div>
                 <div class="content-footer">
-                    <p class="list-label">Home</p>
-                    <p class="list-label">Character</p>
-                    <p class="list-label">Maps</p>
-                    <p class="list-label">About</p>
+                    <p class="list-label">Privacy Policy</p>
+                    <p class="list-label">Terms of Serive</p>
+                    <p class="list-label">Contact Us</p>
                 </div>
             </div>     
         </div>
     </section>
     
+    <script src="/script-register.js"></script>
 </body>
 </html>

@@ -203,6 +203,67 @@ nav
     cursor: pointer;
 }
 
+.error-text
+{
+    font-size: 0.7em;
+    color: red;
+    padding: 0.2em 0 0.2em 0;
+    font-style: italic;
+    margin-bottom: 0.5em;
+}
+
+input
+{
+    padding-left: 0;
+}
+
+input:focus
+{
+    outline: none!important;
+}
+
+.erroractive::placeholder
+{
+    color: red!important;
+}
+
+.label-form {
+    font-size: 0.8em;
+    /* nanti buat variable */
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+.input-form {
+    padding: 0.8em 0 0.8em 0;
+    border: 0;
+    border-bottom: 1px solid;
+}
+
+.input-date {
+    padding: 0.8em;
+    margin-bottom: 1em;
+    border: 0;
+    border-bottom: 1px solid;
+}
+.group-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.group-input-agreement {
+    font-size: 0.8em;
+    margin-bottom: 1em;
+}
+
+.btn-submit {
+    padding: 1.5em;
+    background-color: var(--Darkslateblue);
+    color: var(--White);
+    border: none;
+    border-radius: 1em;
+}
+
 @media screen and (max-width:1024px) {
     .container{
         margin: 0px;
