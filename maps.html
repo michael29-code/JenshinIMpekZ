@@ -9,6 +9,49 @@
     <title>Maps</title>
 </head>
 <body>
+    <nav>
+        <div class="hamburgermenu">
+            <img src="/assets/icon/hamburger.svg" alt="" onclick="openNav()">
+        </div>
+        <div class="group-logo">
+            <img src="/assets/logo.svg" alt="">
+        </div>
+        <div class="btn-login-register">
+            <button class="btn-login"><a href="/login.html">Login</a></button>
+            <button class="btn-register"><a href="/register.html">Register</a></button>
+        </div>
+    </nav>
+    <div class="sidenav-desktop">
+        <ul class="full-oflist">
+            <li class="list-sidenav">
+                <a href="/index.html">Home</a>
+            </li>
+            <li class="list-sidenav">
+                <a href="/character.html">Character</a>
+            </li>
+            <li class="list-sidenav">
+                <a href="/maps.html">Maps</a>
+            </li>
+            <li class="list-sidenav">
+                <a href="/about-us.html">About</a>
+            </li>
+            <li class="list-sidenav">
+                <img src="assets/Language.svg" alt="">
+            </li>
+        </ul>
+    </div>
+    
+    <div id="navigation-mobile" class="sideNavMobile">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="link-contain">
+            <a href="/index.html">Home</a>
+            <a href="/character.html">Characters</a>
+            <a href="/maps.html">Maps</a>
+            <a href="/about-us.html">About</a>
+        </div>
+    </div>
+    
+    <!-- end of navigation -->
     <div class="section-maps" id="maps1">
         <div class="container">
             <div class="row-maps">
@@ -189,7 +232,9 @@
         </div>
         <div class="side-notion">
             <div class="arrow-top">
-                <img src="/assets/icon/arrow-top.svg" alt="" srcset="">
+                <a href="#maps3">
+                    <img src="/assets/icon/arrow-top.svg" alt="" srcset="">
+                </a>
             </div>
             <h2 class="previous-map-title">Sumeru</h2>
             <div class="notion-logo">
@@ -220,6 +265,6 @@
     </div>
     
 
-   
+<script src="/script.js"></script>   
 </body>
 </html>

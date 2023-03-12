@@ -91,7 +91,7 @@
 }
 
 .section:nth-child(2) {
-  background-image: url('assets/bg-home-section2.png');
+  background-image: url('/assets/bg-home-section2.png');
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -224,9 +224,9 @@
       font-size: 0.8em;
   }
 
-  .content-home hr{
-    display: none;
-  }
+    .content-home hr{
+      display: none;
+    }
     .container-img-platform {
       padding-top: 1em;
       display: flex;
@@ -258,12 +258,14 @@
     }
 
     .navigation-character-slider-left img{
-      display: none;
+      /* display: none; */
+      max-width: 2em;
     }
-
+    
     .navigation-character-slider-right img {
-      width: 3em;
-      display: none;
+      
+      /* display: none; */
+      max-width: 2em;
     }
     
     .character-group-left
@@ -293,7 +295,7 @@
       top: -40px;
     }
     .character-group-right p{
-      font-size: 0.5em;
+      font-size: 0.1em;
     }
 
     .section:nth-child(3) .row-weapons .col h1 {

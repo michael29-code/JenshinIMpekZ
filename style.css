@@ -126,7 +126,6 @@ nav
     height: 60%;
     border: 0;
     background-color: var(--Darkslateblue);
-    color: var(--Thistle);
 }
 
 .btn-register
@@ -137,7 +136,17 @@ nav
     height: 60%;
     border: 0;
     background-color: var(--White);
+}
+
+.btn-register a
+{
+    text-decoration: none;
     color: var(--Darkslateblue);
+}
+.btn-login a
+{
+    color: var(--Thistle);
+    text-decoration: none;
 }
 
 .hamburgermenu {
