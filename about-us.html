@@ -5,10 +5,57 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style-about-us.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
         <title>Document</title>
     </head>
     <body>
-        <div class="container">
+        <!-- Nav -->
+
+        <nav>
+            <div class="hamburgermenu">
+                <img src="/assets/icon/hamburger.svg" alt="" onclick="openNav()">
+            </div>
+            <div class="group-logo">
+                <img src="/assets/logo.svg" alt="">
+            </div>
+            <div class="btn-login-register">
+                <button class="btn-login"><a href="/login.html">Login</a></button>
+                <button class="btn-register"><a href="/register.html">Register</a></button>
+            </div>
+        </nav>
+        <div class="sidenav-desktop">
+            <ul class="full-oflist">
+                <li class="list-sidenav">
+                    <a href="/index.html">Home</a>
+                </li>
+                <li class="list-sidenav">
+                    <a href="/character.html">Character</a>
+                </li>
+                <li class="list-sidenav">
+                    <a href="/maps.html">Maps</a>
+                </li>
+                <li class="list-sidenav">
+                    <a href="/about-us.html">About</a>
+                </li>
+                <li class="list-sidenav">
+                    <img src="assets/Language.svg" alt="">
+                </li>
+            </ul>
+        </div>
+    
+        <div id="navigation-mobile" class="sideNavMobile">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="link-contain">
+                <a href="/index.html">Home</a>
+                <a href="/character.html">Characters</a>
+                <a href="/maps.html">Maps</a>
+                <a href="/about-us.html">About</a>
+            </div>
+        </div>
+        <!-- End Nav -->
+        
+        <div class="container-about">
             <div class="wrapper">
                 <section class="about-content row-about">
                     <div class="banner-about">
