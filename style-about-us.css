@@ -13,8 +13,8 @@ body
 
 .container-about
 {
-    width: 100vh;
-    height: 100vw;
+    width: 100vw;
+    height: 100vh;
     transform: rotate(-90deg) translateX(-100vh);
     transform-origin: top left;
     overflow-y:scroll;

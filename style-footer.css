@@ -22,7 +22,8 @@ footer
     bottom: 0;
     left: 0;
     right: 0;
-    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
 }
 .row-footer
 {
@@ -36,6 +37,7 @@ footer
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-top: 90px;
 }
 
 .footer-content .logo
@@ -169,6 +171,11 @@ footer
         flex-direction: column;
         flex-wrap: wrap;
     }
+
+    .row-footer
+    {
+        flex-direction: column;
+    }
     .mid-content ul
     {
         display: flex;
@@ -205,7 +212,8 @@ footer
 
     .rules-policy li a
     {
-        font-size: 20px;
+        font-size: 18px;
+        text-align: center;
     }
     .hoyo-logo img
     {
@@ -238,6 +246,23 @@ footer
         max-width: 1250px;
         margin: 10px auto;
         line-height: 28px;
-        font-size: 14px;
+        font-size: 12px;
+    }
+
+    footer
+    {
+        background-color: #191D2C;
+        height: 123vh;
+        width: 100vw;
+        color: #fff;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-content
+    {
+        margin-top: 120px;
     }
 }
