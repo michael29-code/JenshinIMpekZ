@@ -33,144 +33,179 @@ body
     justify-content: center;
 }
 
-.slide-container
+.panel
 {
-    width: 100%;
-    height: 85vh;
     display: flex;
-    align-items: center;
-    overflow: hidden;
-    justify-content: center;
-    background: linear-gradient(to right, rgb(255,65,100), rgb(255, 65,108), rgb(255,75,43));
+    max-width: 900px;
+    width: 100%;
+    height: 900px;
 }
 
-.image-slider
-{
-    width: 100%;
-    height: 600px;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: .7s;
-    position: absolute;
-} 
-
-.slides-div
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 30px 0 30px;
-}
-
-.img-chara
+.content-panel
 {
     position: relative;
-    width: 240px;
-    height: 370px;
-    transition: .5s;
-    filter: saturate(10%);
+    min-height: 100%;
+    flex: 8;
+    overflow: hidden;
+    /* box-shadow: 2px 9px 15px 5px rgba(0, 0, 0, 0.123); */
+    background-color: transparent;
+    transition: flex .5s ease-in-out;
+    transition-delay: .2s;
 }
 
-.btn-image
+.img-content
 {
     position: absolute;
-    width: 240px;
-    height: 370px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.img-content img
+{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    object-fit: cover;
+    object-position: 40%;
     transition: .5s;
-    background-color: rgb(0,0,0, .4);
+    z-index: -1;
+    /* object-position: 1p; */
+}
+
+.content-panel:nth-child(2) .img-content img 
+{
+    object-position: 60%;
 }
 
 
-.btn-image:hover
+.content-panel:nth-child(5) .img-content img 
 {
-    background-color: rgb(0,0,0, .2);
+    margin-top: 42px;
 }
 
-#slider-span-1:target ~ .image-slider #image,
-#slider-span-1:target ~ .image-slider #imageBtn
+.content
 {
-    width: 380px;
-    height: 585px;
-    background-color: transparent;
-    filter: saturate(100%);
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 2;
+    color: #fff;
+    /* transform: translateX(100px); */
+    width: 30ch;
+    opacity: 100%;
+    transition: opacity .8s ease-out,
+                transform .6 east-in-out;
+    flex-direction: column;
+    display: none;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 90px;
 }
 
-#slider-span-2:target ~ .image-slider #image-1,
-#slider-span-2:target ~ .image-slider #imageBtn1
+.content-panel:nth-child(1)
 {
-    width: 380px;
-    height: 585px;
-    background-color: transparent;
-    filter: saturate(100%);
+    background-image: url(assets/1161814.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
 }
 
-#slider-span-3:target ~ .image-slider #image-2,
-#slider-span-3:target ~ .image-slider #imageBtn2
+.content-panel:nth-child(2)
 {
-    width: 380px;
-    height: 585px;
-    background-color: transparent;
-    filter: saturate(100%);
-}
-#slider-span-4:target ~ .image-slider #image-3,
-#slider-span-4:target ~ .image-slider #imageBtn3
-{
-    width: 380px;
-    height: 585px;
-    background-color: transparent;
-    filter: saturate(100%);
-}
-#slider-span-5:target ~ .image-slider #image-4,
-#slider-span-5:target ~ .image-slider #imageBtn4
-{
-    width: 380px;
-    height: 585px;
-    background-color: transparent;
-    filter: saturate(100%);
-}
-#slider-span-6:target ~ .image-slider #image-5,
-#slider-span-6:target ~ .image-slider #imageBtn5
-{
-    width: 380px;
-    height: 585px;
-    background-color: transparent;
-    filter: saturate(100%);
-}
-#slider-span-7:target ~ .image-slider #image-6,
-#slider-span-7:target ~ .image-slider #imageBtn6
-{
-    width: 380px;
-    height: 585px;
-    background-color: transparent;
-    filter: saturate(100%);
+    background-image: url(assets/1160737.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
 }
 
-/* image positioning */
-
-#slider-span-1:target ~ .image-slider
+.content-panel:nth-child(3)
 {
-    left: 10%;
+    background-image: url(assets/wp9550691-genshin-impact-inazuma-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
 }
 
-#slider-span-2:target ~ .image-slider
+.content-panel:nth-child(4)
 {
-    left: 25%;
+    background-image: url(assets/1920x1080-33980-Inazuma-Genshin-ImpactInazuma-Genshin-Impact-4k.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
 }
-#slider-span-3:target ~ .image-slider
+
+.content-panel:nth-child(5)
 {
-    left: 25%;
+    background-image: url(assets/9a54cf6198391bee3fb7408f42a781f2_5201112729941600074.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
 }
-#slider-span-5:target ~ .image-slider
+
+/* .active-content
 {
-    left: -25%;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 2;
+    color: #fff;
+    transform: translateX(100px);
+    width: 30ch;
+    opacity: 100%;
+    transition: opacity .8s ease-out,
+                transform .6 east-in-out;
+    flex-direction: column;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+} */
+
+.content h3
+{
+    font-size: 2.5rem;
+    margin: 0;
+    font-family: "The Nautigal", cursive;
+    color: #000;
 }
-#slider-span-6:target ~ .image-slider
+
+.content p
 {
-    left: -50%;
+    font-size: 1rem;
 }
-#slider-span-7:target ~ .image-slider
+
+.panel .active
 {
-    left: -70%;
+    flex: 14;
+}
+
+.panel .active img
+{
+    filter: brightness(70%);
+}
+
+.panel.active .content
+{
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+@media (max-width: 475px)
+{
+    .panel
+    {
+        flex-direction: column;
+    }
+    .content-panel
+    {
+        margin: 1rem;
+    }
 }
