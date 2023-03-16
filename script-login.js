@@ -17,8 +17,13 @@ buttonSubmitLogin.addEventListener('click',(event) =>{
     emailLoginLabel.style.color = 'red'
     inputEmailLogin.style.borderBottomColor = 'red'
     inputEmailLogin.classList.add('erroractive')
-    TextEmailLogin += "email harus diisi<br>"
+    TextEmailLogin += "e-mail is required<br>"
+  }else if(!email.includes("@gmail.com"))
+  {
+      TextEmailLogin += "invalid e-mail must be contain @gmail.com<br>"
   }
+
+  
   
   const passsword = inputPasswordRegister.value
   if(passsword == "")
@@ -26,7 +31,7 @@ buttonSubmitLogin.addEventListener('click',(event) =>{
     passwordLoginLabel.style.color = 'red'
     inputPasswordRegister.style.borderBottomColor = 'red'
     inputPasswordRegister.classList.add('erroractive')
-    TextPasswordLogin += "password harus diisi<br>"
+    TextPasswordLogin += "password is required<br>"
   }
   errorTextEmailLogin.innerHTML = TextEmailLogin
   errorTextPasswordLogin.innerHTML = TextPasswordLogin

@@ -42,44 +42,77 @@ btnSubmitRegister.addEventListener('click',(event) =>{
     namaRegisterLabel.style.color = 'red'
     namaRegister.style.borderBottomColor = 'red'
     namaRegister.classList.add('erroractive')
-    text_namaRegister_value_default += "nama harus diisi<br>"
+    text_namaRegister_value_default += "name cannot be empty<br>"
+  }else if(!isNaN(namaRegisterValue))
+  {
+    text_namaRegister_value_default += "name cannot be number<br>"
   }
+
+  
   if(emailRegisterValue == "")
   {
     emailRegisterLabel.style.color = 'red'
     emailRegister.style.borderBottomColor = 'red'
     emailRegister.classList.add('erroractive')
-    text_emailRegister_value_default += "email harus diisi<br>"
+    text_emailRegister_value_default += "e-mail cannot be empty<br>"
+  }else if(!emailRegisterValue.includes("@gmail.com"))
+  {
+      text_emailRegister_value_default += "invalid e-mail must be contain @gmail.com<br>"
   }
+
+
   if(passwordRegisterValue == "")
   {
     passwowrdRegisterLabel.style.color = 'red'
     passwordRegister.style.borderBottomColor = 'red'
     passwordRegister.classList.add('erroractive')
-    text_passwordRegister_value_default += "password harus diisi<br>"
+    text_passwordRegister_value_default += "password cannot be empty<br>"
+  }else if (passwordRegisterValue.length < 8)
+  {
+    text_passwordRegister_value_default += "password must be more than 8<br>"
   }
+
+
   if(re_passwordRegisterValue == "")
   {
     re_passwordRegisterLabel.style.color = 'red'
     re_passwordRegister.style.borderBottomColor = 'red'
     re_passwordRegister.classList.add('erroractive')
-    text_re_passwordRegister_value_default += "re password harus diisi<br>"
+    text_re_passwordRegister_value_default += "re password cannot be empty<br>"
+  }else if (re_passwordRegisterValue.length < 8)
+  {
+    text_re_passwordRegister_value_default += "re password must be more than 8<br>"
+  }  
+
+  
+  if (passwordRegisterValue.localeCompare(re_passwordRegisterValue)) {
+      text_passwordRegister_value_default += "password and re password not same<br>"
+      text_re_passwordRegister_value_default += "password and re password not same<br>"
   }
 
+  var d = new Date(agreRegisterValue);
+  year = d.getFullYear();
 
   if(agreRegisterValue == "")
   {
     ageRegisterLabel.style.color = 'red'
     ageRegister.style.borderBottomColor = 'red'
     ageRegister.style.color = 'red'
-    text_agreRegister_value_default += "date harus diisi<br>"
+    text_agreRegister_value_default += "date cannot be empty<br>"
+  }else if(year > 2003)
+  {
+    text_agreRegister_value_default += "Age cannot be under 18"
   }
+
+
+
+
   if(!agreementRegistere.checked)
   {
     agreementRegisterLabel.style.color = 'red'
     agreementRegistere.style.borderBottomColor = 'red'
     agreementRegistere.style.color = 'red'
-    text_agreementRegistere_value_default += "agreement harus diisi"
+    text_agreementRegistere_value_default += "agreement must be filled"
   }
 
 

@@ -32,6 +32,20 @@ body
     scroll-snap-align: center;
 }
 
+.scroll-bar-icon
+{
+  position: absolute;
+  transform: scale(1);
+  left: 18%;
+  color: white;
+  
+  @-webkit-keyframes rotation {
+      0%,10%     {-webkit-transform: rotate(0deg);}
+      90%,100%   {-webkit-transform: rotate(90deg);}
+  }
+}
+
+
 .section:nth-child(1)
 {
   color: white;
@@ -196,6 +210,11 @@ body
   body
   {
       overflow-y: scroll;
+  }
+
+  .scroll-bar-icon
+  {
+    display: none;
   }
   .outer-wrapper {
       width: 100%;
