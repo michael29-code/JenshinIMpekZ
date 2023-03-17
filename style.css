@@ -76,6 +76,11 @@ nav
     padding: 5px;
 }
 
+.group-logo img
+{
+    max-width: 180px;
+}
+
 .sidenav-desktop .full-oflist .list-sidenav a {
     width: 100%;
     text-decoration: none;
@@ -285,7 +290,7 @@ input:focus
     }
 
     .group-logo img {
-        max-width: 100%;
+        max-width: 60%;
     }
 
     .hamburgermenu img {
