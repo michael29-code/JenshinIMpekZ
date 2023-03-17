@@ -6,7 +6,10 @@
     background-repeat: no-repeat;
     height: 100vh;
 }
-
+.logo-register
+{
+    width: 10%;
+}
 
 .col-register1 {
     display: flex;

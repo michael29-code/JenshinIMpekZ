@@ -1,4 +1,4 @@
-*{
+body{
     overflow: hidden;
 }
 .section-maps
@@ -159,6 +159,7 @@
 }
 
 @media screen and (max-width:425px) {
+    
     .side-notion
     {
         flex-direction: column;
