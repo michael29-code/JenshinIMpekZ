@@ -221,7 +221,7 @@ body
       height: 100%;
       transform: rotate(0) translateX(0);
       transform-origin: none;
-      overflow-y: scorll;
+      overflow-y: scroll;
       overflow-x: none;
       position: static;
       scrollbar-width: none;

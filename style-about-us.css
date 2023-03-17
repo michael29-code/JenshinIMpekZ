@@ -89,23 +89,6 @@ body
     height: 100%;
 }
 
-.card-center
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
-
-.card-center .card-text p
-{
-    text-align: left;
-    max-width: 600px;
-    margin-left: 50px;
-}
-
 .card-text h2
 {
     text-align: center;
@@ -116,18 +99,15 @@ body
     text-align: left;   
     max-width: 600px;
     margin-left: 50px;
-}
-
-.card-text h2
-{
-    text-align: center;
+    font-weight: 200;
 }
 
 .card-right .card-text p
 {
-    text-align: left;
-    max-width: 600px;
+    text-align: right;
+    max-width: 550px;
     margin-right: 50px;
+    font-weight: 200;
 }
 
 .features-title
@@ -196,10 +176,17 @@ body
         position: static;
         scrollbar-width: none;
         -ms-overflow-style: none;
-        scroll-snap-type: x mandatory;
+        scroll-snap-type: none;
+    }
+    .card-right .card-text p
+    {
+        text-align: right;
+        max-width: 550px;
+        margin-right: 0;
+        font-weight: 200;
     }
 
-    .wrapper
+    .wrapper-about
     {
         display: flex;
         flex-direction: column;
@@ -220,16 +207,25 @@ body
     
     .banner-about
     {
-        background-size:cover;
+        height: 100%;
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-image: url(assets/image\ 17.png);
+        background-size: cover;
         background-repeat: no-repeat;
     }
 
     .about-content
     {
-        height: 100%;
+        height: 100vh;
         width: 100%;
+        font-family: sans-serif;
+        color: #fff;
     }
-    
+
     .card-left
     {
         display: flex;
@@ -238,7 +234,19 @@ body
         align-items: center;
         height: 100%;
         width: 100%;
+        padding-bottom: 45px;
     }
+
+    .card-left img
+    {
+        padding-bottom: 35px;
+    }
+
+    .card-right img
+    {
+        padding-bottom: 35px;
+    }
+
     .card-right
     {
         display: flex;
@@ -247,16 +255,9 @@ body
         align-items: center;
         height: 100%;
         width: 100%;
+        padding-bottom: 45px;
     }
-    .card-center
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        width: 100%;
-    }
+
     .card-text
     {
         display: flex;
@@ -267,24 +268,28 @@ body
         height: 100%;
         width: 100%;
     }
+
+    /* .card-center > .card-text
+    {
+        justify-content: flex-start;
+    } */
+
+    .card-text h2
+    {
+        text-align: center;
+        font-size: 24px;
+    }
     .card-left .card-text p
     {
-        text-align: left;   
-        max-width: 400px;
+        text-align: center;   
         margin-left: 0px;
+        font-size: 12px;
     }
     .card-right .card-text p
     {
         text-align: center;   
-        max-width: 400px;
         margin-left: 0px;
-    }
-
-    .card-center .card-text p
-    {
-        text-align: center;   
-        max-width: 400px;
-        margin-left: 0px;
+        font-size: 12px;
     }
 
     .card-img
@@ -301,19 +306,61 @@ body
         height: 100%;
     }
 
-    .card-img-center
+    .features
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 374px)
+{
+    .card-right .card-text p
+    {
+        text-align: center;   
+        margin-left: 0px;
+        font-size: 12px;
+    }
+
+    .card-img img
     {
         width: 100%;
         height: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+    }
+    
+    .about-content:nth-child(4) .features .card-left
+    {
+        height: 100%;
+        padding-bottom: 0;
     }
 
-    .card-img-center img
+    .about-content:nth-child(4) .features .card-left .card-img
     {
-        width: 50%;
-        height: 50%;
+        height: 20%;
+        justify-content: center;
+    }
+
+    .about-content:nth-child(4) .features .card-left .card-text
+    {
+        height: 20%;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: row;
+
+    }
+    .about-content:nth-child(4) .features .card-left .card-img img
+    {
+        object-fit: cover;
+
+        
+    }
+    .row-about
+    {
+        scroll-snap-align: none;
     }
 }

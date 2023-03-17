@@ -375,11 +375,11 @@ body
         transition: .5s;
         z-index: -1;
         margin-top: 0;
-        /* object-position: 1p; */
+        object-position: top;
     }
     .content-panel:nth-child(2) .img-content img 
     {
-        object-position: 60%;
+        object-position: top;
     }
 
 
