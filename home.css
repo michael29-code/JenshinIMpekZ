@@ -52,7 +52,7 @@ body
 }
 
 .section:nth-child(3) {
-  background-image: url('assets/bg-home-section3.png');
+  background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/bg-home-section3.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -110,7 +110,7 @@ body
 }
 
 .section:nth-child(2) {
-  background-image: url('/assets/bg-home-section2.png');
+  background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/bg-home-section2.png');
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;

@@ -22,8 +22,8 @@ let namecharactersUrl = [
 ]
 
 let charactersUrl = [
-  '/assets/new-character-1.svg',
-  '/assets/new-character-2.svg'
+  'https://ornate-kulfi-0f8d23.netlify.app/assets/new-character-1.svg',
+  'https://ornate-kulfi-0f8d23.netlify.app/assets/new-character-2.svg'
 ]
 
 let charactersText = [

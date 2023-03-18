@@ -32,7 +32,7 @@ body
     width: 500vw;
     transform: rotate(90deg) translateY(-100vh);
     transform-origin: top left;
-    background-image: url(assets/about-us/Rectangle\ 98.png);
+    background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/about-us/Rectangle\ 98.png');
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
@@ -140,7 +140,7 @@ body
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-image: url(assets/image\ 17.png);
+    background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/image\ 17.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -213,7 +213,7 @@ body
         display: flex;
         flex-direction: row;
         justify-content: center;
-        background-image: url(assets/image\ 17.png);
+        background-image: url('https://ornate-kulfi-0f8d23.netlify.appassets/image\ 17.png');
         background-size: cover;
         background-repeat: no-repeat;
     }

@@ -15,20 +15,20 @@ body{
 
 #maps1
 {
-    background-image: url('/assets/bg-maps-1.svg');
+    background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/bg-maps-1.svg');
 }
 
 #maps2
 {
-    background-image: url('/assets/bg-maps-2.svg');
+    background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/bg-maps-2.svg');
 }
 #maps3
 {
-    background-image: url('/assets/bg-home-section2.png');
+    background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/bg-home-section2.png');
 }
 #maps4
 {
-    background-image: url('/assets/bg-maps-4.svg');
+    background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/bg-maps-4.svg');
 }
 
 .container

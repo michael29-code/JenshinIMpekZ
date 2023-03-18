@@ -76,7 +76,7 @@ body
 {
     height: 100%;
     width: 100%;
-    background-image: url(assets/character/wp9550691-genshin-impact-inazuma-wallpapers.jpg);
+    background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/character/wp9550691-genshin-impact-inazuma-wallpapers.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -165,7 +165,7 @@ body
 
 .content-panel:nth-child(1)
 {
-    background-image: url(assets/character/1161814.jpg);
+    background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/character/1161814.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -174,7 +174,7 @@ body
 
 .content-panel:nth-child(2)
 {
-    background-image: url(assets/character/1160737.jpg);
+    background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/character/1160737.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -183,7 +183,7 @@ body
 
 .content-panel:nth-child(3)
 {
-    background-image: url(assets/character/wp9550691-genshin-impact-inazuma-wallpapers.jpg);
+    background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/character/wp9550691-genshin-impact-inazuma-wallpapers.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -192,7 +192,7 @@ body
 
 .content-panel:nth-child(4)
 {
-    background-image: url(assets/character/1920x1080-33980-Inazuma-Genshin-ImpactInazuma-Genshin-Impact-4k.jpg);
+    background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/character/1920x1080-33980-Inazuma-Genshin-ImpactInazuma-Genshin-Impact-4k.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -201,7 +201,7 @@ body
 
 .content-panel:nth-child(5)
 {
-    background-image: url(assets/character/9a54cf6198391bee3fb7408f42a781f2_5201112729941600074.png);
+    background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/character/9a54cf6198391bee3fb7408f42a781f2_5201112729941600074.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
