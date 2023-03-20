@@ -16,8 +16,8 @@ body
 footer
 {
     background-color: #191D2C;
-    height: 100%;
-    width: 100vw;
+    height: 100vh;
+    width: 100%;
     color: #fff;
     bottom: 0;
     left: 0;
@@ -257,8 +257,8 @@ footer
     footer
     {
         background-color: #191D2C;
-        height: 123vh;
-        width: 100vw;
+        height: 100%;
+        width: 100%;
         color: #fff;
         bottom: 0;
         left: 0;
