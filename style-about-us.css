@@ -213,7 +213,7 @@ body
         display: flex;
         flex-direction: row;
         justify-content: center;
-        background-image: url('https://ornate-kulfi-0f8d23.netlify.appassets/image\ 17.png');
+        background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/image\ 17.png');
         background-size: cover;
         background-repeat: no-repeat;
     }
