@@ -45,7 +45,15 @@ btnSubmitRegister.addEventListener('click',(event) =>{
     text_namaRegister_value_default += "name cannot be empty<br>"
   }else if(!isNaN(namaRegisterValue))
   {
+    namaRegisterLabel.style.color = 'red'
+    namaRegister.style.borderBottomColor = 'red'
+    namaRegister.classList.add('erroractive')
     text_namaRegister_value_default += "name cannot be number<br>"
+  }else
+  {
+    namaRegisterLabel.style.color = 'black'
+    namaRegister.style.borderBottomColor = 'black'
+    text_namaRegister_value_default += ""
   }
 
   
@@ -57,7 +65,12 @@ btnSubmitRegister.addEventListener('click',(event) =>{
     text_emailRegister_value_default += "e-mail cannot be empty<br>"
   }else if(!emailRegisterValue.includes("@gmail.com"))
   {
-      text_emailRegister_value_default += "invalid e-mail must be contain @gmail.com<br>"
+    text_emailRegister_value_default += "invalid e-mail must be contain @gmail.com<br>"
+  }else
+  {
+    emailRegisterLabel.style.color = 'black'
+    emailRegister.style.borderBottomColor = 'black'
+    text_emailRegister_value_default += ""
   }
 
 
@@ -70,6 +83,11 @@ btnSubmitRegister.addEventListener('click',(event) =>{
   }else if (passwordRegisterValue.length < 8)
   {
     text_passwordRegister_value_default += "password must be more than 8<br>"
+  }else
+  {
+    passwowrdRegisterLabel.style.color = 'black'
+    passwordRegister.style.borderBottomColor = 'black'
+    text_passwordRegister_value_default += ""
   }
 
 
@@ -82,12 +100,21 @@ btnSubmitRegister.addEventListener('click',(event) =>{
   }else if (re_passwordRegisterValue.length < 8)
   {
     text_re_passwordRegister_value_default += "re password must be more than 8<br>"
+  }else
+  {
+    re_passwordRegisterLabel.style.color = 'black'
+    re_passwordRegister.style.borderBottomColor = 'black'
+    text_re_passwordRegister_value_default += ""
   }  
 
   
   if (passwordRegisterValue.localeCompare(re_passwordRegisterValue)) {
       text_passwordRegister_value_default += "password and re password not same<br>"
       text_re_passwordRegister_value_default += "password and re password not same<br>"
+  }else
+  {
+     text_passwordRegister_value_default += ""
+      text_re_passwordRegister_value_default += ""
   }
 
   var d = new Date(agreRegisterValue);
@@ -102,10 +129,13 @@ btnSubmitRegister.addEventListener('click',(event) =>{
   }else if(year > 2003)
   {
     text_agreRegister_value_default += "Age cannot be under 18"
+  }else
+  {
+     ageRegisterLabel.style.color = 'black'
+    ageRegister.style.borderBottomColor = 'black'
+    ageRegister.style.color = 'black'
+    text_agreRegister_value_default += ""
   }
-
-
-
 
   if(!agreementRegistere.checked)
   {
@@ -113,6 +143,12 @@ btnSubmitRegister.addEventListener('click',(event) =>{
     agreementRegistere.style.borderBottomColor = 'red'
     agreementRegistere.style.color = 'red'
     text_agreementRegistere_value_default += "agreement must be filled"
+  }else
+  {
+    agreementRegisterLabel.style.color = ''
+    agreementRegistere.style.borderBottomColor = ''
+    agreementRegistere.style.color = ''
+    text_agreementRegistere_value_default += ""
   }
 
 
