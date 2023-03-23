@@ -49,6 +49,7 @@ body
 .section:nth-child(1)
 {
   color: white;
+  background-position: center center;
 }
 
 .section:nth-child(3) {
@@ -117,6 +118,7 @@ body
   justify-content: center;
   align-items: end;
   color: var(--Thistle);
+  background-position: center center;
 }
 
 .characters-group{
@@ -206,6 +208,81 @@ body
   color: var(--Thistle  );
 }
 
+@media screen and (max-width: 576px) {
+
+.section:nth-child(2)
+{
+  background-position: center center;
+}
+
+  .section:nth-child(3) .row-weapons .col h1 {
+    padding: 3em!important;
+    font-size: 1.5em!important;
+  }
+  
+  .content-home h1
+  {
+    font-size: 2em!important;
+  }
+  .section:nth-child(2) {
+      height: 40vh!important;
+    }
+  
+    .character-btn {
+      text-align: center;
+    }
+  
+    .btn-character-detail {
+      display: none;
+    }
+  
+    .character-title h1 {
+      font-size: 1em!important;
+    }
+  
+    .navigation-character-slider-left img {
+      /* display: none; */
+      max-width: 2em!important;
+    }
+  
+    .navigation-character-slider-right img {
+  
+      /* display: none; */
+      max-width: 2em!important;
+    }
+    .character-group-left h1 {
+      font-size: 1em!important;
+    }
+
+    .character-group-left img {
+      width: 1em!important;
+    }
+
+    .character-group-right p {
+      font-size: 1em!important;
+    }
+
+    .weapons-controller
+    {
+      flex-direction: column!important;
+    }
+
+    .container-weapons h6 {
+      font-size: 1em!important;
+    }
+
+    .container-weapons
+    {
+      padding:2em!important;
+    }
+
+    .weapons-controller
+    {
+      padding: 2em  0 2em 0;
+    }
+}
+
+
 @media screen and (max-width: 1024px) {
   body
   {
@@ -269,7 +346,7 @@ body
     
     .section:nth-child(2)
     {
-      height: 40vh;
+      height: 50vh;
     }
     .character-btn {
       text-align: center; 
@@ -281,18 +358,18 @@ body
 
     .character-title h1
     {
-      font-size: 1em;
+      font-size: 3em;
     }
 
     .navigation-character-slider-left img{
       /* display: none; */
-      max-width: 2em;
+      max-width: 5em;
     }
     
     .navigation-character-slider-right img {
       
       /* display: none; */
-      max-width: 2em;
+      max-width: 5em;
     }
     
     .character-group-left
@@ -305,10 +382,10 @@ body
     
     .character-group-left h1
     {
-      font-size: 0.5em;
+      font-size: 2em;
     }
     .character-group-left img{
-      width: 0.5em;
+      width: 1.5em;
     }
     .character-group-left .stars
     {
@@ -322,7 +399,7 @@ body
       top: -40px;
     }
     .character-group-right p{
-      font-size: 0.1em;
+      font-size: 1em;
     }
 
     .section:nth-child(3) .row-weapons .col h1 {

@@ -76,12 +76,33 @@ body
 {
     height: 100%;
     width: 100%;
-    background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/character/wp9550691-genshin-impact-inazuma-wallpapers.jpg');
+    /* background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/character/wp9550691-genshin-impact-inazuma-wallpapers.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    background-position: center center;
     justify-content: center;
     align-items: center;
+}
+
+#maps1 {
+    background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/bg-maps-1.svg');
+    background-position: center center;
+}
+
+#maps2 {
+    background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/bg-maps-2.svg');
+    background-position: center center;
+}
+
+#maps3 {
+    background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/bg-home-section2.png');
+    background-position: center center;
+}
+
+#maps4 {
+    background-position: center center;
+    background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/bg-maps-4.svg');
 }
 
 .banner-chara h1

@@ -16,18 +16,22 @@ body{
 #maps1
 {
     background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/bg-maps-1.svg');
+    background-position: center center;
 }
 
 #maps2
 {
     background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/bg-maps-2.svg');
+    background-position: center center;
 }
 #maps3
 {
     background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/bg-home-section2.png');
+    background-position: center center;
 }
 #maps4
 {
+    background-position: center center;
     background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/bg-maps-4.svg');
 }
 
@@ -81,6 +85,11 @@ body{
     width: 50%;
     background-color: white;
     border:3px solid wheat;
+}
+
+.btn-seegalery a
+{
+    text-decoration: none;
 }
 .btn-characters
 {
@@ -158,11 +167,11 @@ body{
     }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:576px) {
     
     .side-notion
     {
-        flex-direction: column;
+        flex-direction: column!important;
         justify-content: center;
         flex-wrap: wrap;
     }
@@ -192,6 +201,7 @@ body{
     {
         padding: 0.5em;
     }
+    
     .btn-characters
     {
         padding: 0.5em;
@@ -213,7 +223,7 @@ body{
     }
     .notion-logo a img
     {
-        width: 2em;
+        width: 7em!important;
     }
 }
 
