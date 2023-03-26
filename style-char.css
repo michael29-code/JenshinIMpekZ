@@ -66,6 +66,13 @@ body
     scroll-snap-align: center;
 }
 
+.char-banner
+{
+    background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/character/wp9550691-genshin-impact-inazuma-wallpapers.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .about-banner
 {
     height: 100vh;
@@ -83,6 +90,19 @@ body
     background-position: center center;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.left-arrow
+{
+    width: 40%;
+    height: 100%;
+}
+
+.right-arrow
+{
+    width: 40%;
+    height: 100%;
 }
 
 #maps1 {
