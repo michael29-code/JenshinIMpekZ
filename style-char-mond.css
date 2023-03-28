@@ -1,0 +1,528 @@
+/* .char-container
+{
+    height: 100vh;
+    width: 100vw;
+}
+
+.wrapper
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.char-card-container
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+} */
+
+body
+{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+}
+.container-chara
+{
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    scroll-snap-type: y mandatory;
+}
+.wrapper-chara
+{
+    display: flex;
+    flex-direction: row;
+    width: 900vw;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+}
+
+
+::-webkit-scrollbar
+{
+    display: none;
+}
+
+.row-scroll
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: center;
+}
+
+.char-banner
+{
+    background-image: url(content/chara/1175581.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-banner
+{
+    height: 100vh;
+    width: 100vw;
+}
+
+.banner-chara
+{
+    height: 100%;
+    width: 100%;
+    /* background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/character/wp9550691-genshin-impact-inazuma-wallpapers.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    background-position: center center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.cp-title
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-arr
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-arr a
+{
+    font-weight: 100;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2em;
+}
+
+.to-left
+{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-arr
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-arr a
+{
+    font-weight: 100;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2em;
+}
+
+.to-right
+{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-chara h1
+{
+    color: #fff;
+    font-weight: 200;
+    text-shadow: 0 0 10px #fff;
+    font-size: 4em;
+}
+.panel
+{
+    display: flex;
+    /* max-width: 900px; */
+    width: 100vw;
+    height: 100vh;
+}
+
+.content-panel
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    flex: 8;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    /* box-shadow: 2px 9px 15px 5px rgba(0, 0, 0, 0.123); */
+    background-color: transparent;
+    transition: flex .5s ease-in-out;
+    transition-delay: .1s;
+}
+
+
+.img-content
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.img-content img
+{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    object-fit: cover;
+    object-position: 40%;
+    transition: .5s;
+    z-index: -1;
+    /* object-position: 1p; */
+}
+
+.content-panel:nth-child(1) .img-content img 
+{
+    object-position: 90%;
+}
+
+.content-panel:nth-child(5) .img-content img 
+{
+    margin-top: 42px;
+}
+
+.content
+{
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    opacity: 100%;
+    transition: opacity .8s ease-out,
+                transform .6 east-in-out;
+    flex-direction: column;
+    display: none;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 90px;
+}
+
+.content-panel:nth-child(1)
+{
+    background-image: url(content/chara/1175582.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.content-panel:nth-child(2)
+{
+    background-image: url(content/chara/wp9498570-genshin-impact-liyue-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.content-panel:nth-child(3)
+{
+    background-image: url(content/chara/1175581.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.content-panel:nth-child(4)
+{
+    background-image: url(content/chara/1175593\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.content-panel:nth-child(5)
+{
+    background-image: url(content/chara/wp8657140-liyue-wallpapers.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.content-title
+{
+    width: 100%;
+    height: 5%;
+    color: #fff;
+}
+
+.content-title h3
+{
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.content-desc
+{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60%;
+}
+
+.box-detail
+{
+    background-color: aliceblue;
+    border-radius: 90px;
+    width: 120px;
+    height: 40px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-detail a
+{
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.content h3
+{
+    font-size: 2rem;
+    margin: 0;
+    font-family: "genshin";
+    font-weight: 200;
+}
+
+.content p
+{
+    font-size: 1rem;
+}
+
+.panel .active
+{
+    flex: 14;
+}
+
+.panel .active img
+{
+    filter: brightness(70%);
+}
+
+.panel.active .content
+{
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+@media (max-width: 475px)
+{
+
+    .container-chara
+    {
+      width: 100%;
+      height: 100%;
+      transform: rotate(0) translateX(0);
+      transform-origin: none;
+      overflow-y: scorll;
+      overflow-x: none;
+      position: static;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+      scroll-snap-type: x mandatory;
+    }
+    .wrapper-chara
+    {
+        display: flex;
+        flex-direction: column; 
+        width: 100%;
+        transform: rotate(0) translateY(0);
+        transform-origin: none;
+    }
+    .panel
+    {
+        flex-direction: column;
+    }
+
+    .char-banner
+    {
+        background-position: center center;
+    }
+
+
+    .banner-chara
+    {
+        height: 100%;
+        width: 100%;
+        /* background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/character/wp9550691-genshin-impact-inazuma-wallpapers.jpg'); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        background-position: center center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .banner-chara h1
+    {
+        color: #fff;
+        font-weight: 200;
+        text-shadow: 0 0 10px #fff;
+        font-size: 2em;
+        text-align: center;
+    }
+    .left-arr
+    {
+        width: 50%;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        order: 2;
+    }
+
+    .left-arr .link-char
+    {
+        display: none;
+    }
+
+    .to-left
+    {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-arr
+    {
+        width: 50%;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right-arr .link-char
+    {
+        display: none;
+    }
+
+
+    .right-arr a
+    {
+        font-weight: 100;
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.5em;
+    }
+
+    .to-right
+    {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .panel .active
+    {
+        flex: 20;
+    }
+    
+    .content-panel
+    {
+        margin: 0;
+    }
+
+    .content-title h3
+    {
+        color: #fff;
+        text-align: center;
+        width: 100%;
+    }
+
+    .content-desc
+    {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20%;
+    }
+    
+    .img-content img
+    {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: .5s;
+        z-index: -1;
+        margin-top: 0;
+        object-position: top;
+    }
+    .content-panel:nth-child(2) .img-content img 
+    {
+        object-position: top;
+    }
+
+    .content-panel:nth-child(1) .img-content img 
+    {
+        object-position: top;
+    }
+
+    .content-panel:nth-child(5) .img-content img 
+    {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    body {
+        overflow-y: scroll;
+    }
+}
