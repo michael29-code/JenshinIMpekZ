@@ -1,0 +1,153 @@
+
+body {
+    overflow-y: hidden;
+}
+.outer-wrapper{
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    scroll-snap-type: y mandatory;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 500vw;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+}
+.section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: center;
+}
+
+.maps-detail
+{
+    width: 100vw;
+    height: 100vh;
+background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(content/chara/wp11396543-sumeru-wallpapers.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+}
+
+.maps-detail-content
+{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-logo-mapsdetail
+{
+    width: 20%;
+}
+.img-arrow-mapsdetail
+{
+    width: 70%;
+    height: 10%;
+    margin-bottom: 1em;
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        overflow-y: scroll;
+    }
+    .outer-wrapper {
+            width: 100%;
+            height: 100%;
+            transform: rotate(0) translateX(0);
+            transform-origin: none;
+            overflow-y: scroll;
+            overflow-x: none;
+            position: static;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+            scroll-snap-type: x mandatory;
+        }
+    
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            transform: rotate(0) translateY(0);
+            transform-origin: none;
+        }
+    
+        .section {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            scroll-snap-align: center;
+        }
+    
+    .maps-detail {
+        width: 100%;
+        height: 100vh;
+        /* background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)), url('https://stirring-liger-af999d.netlify.app/assets/monstadt-logo.svg'); */
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .maps-detail-content {
+        width: 50%;
+        height: 50%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .maps-detail-content h1
+    {
+        font-size: 1.5em;
+    }
+
+    .maps-detail-content p
+    {
+        font-size: 0.8em;
+    }
+
+    .img-logo-mapsdetail {
+        min-width: 60%;
+    }
+
+    .img-arrow-mapsdetail {
+        min-width: 70%;
+        height: 10%;
+        margin-bottom: 1em;
+    }
+}
