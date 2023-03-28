@@ -68,7 +68,7 @@ body
 
 .char-banner
 {
-    background-image: url(content/chara/1175581.jpg);
+    background-image: url(content/chara/monds.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -110,6 +110,7 @@ body
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    visibility: hidden;
 }
 
 .left-arr a
@@ -209,7 +210,7 @@ body
 
 .content-panel:nth-child(1) .img-content img 
 {
-    object-position: 90%;
+    object-position: 40%;
 }
 
 .content-panel:nth-child(5) .img-content img 
@@ -236,7 +237,7 @@ body
 
 .content-panel:nth-child(1)
 {
-    background-image: url(content/chara/1175582.jpg);
+    background-image: url(content/chara/mondo2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -245,7 +246,7 @@ body
 
 .content-panel:nth-child(2)
 {
-    background-image: url(content/chara/wp9498570-genshin-impact-liyue-wallpapers.jpg);
+    background-image: url(content/chara/monds.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -254,7 +255,7 @@ body
 
 .content-panel:nth-child(3)
 {
-    background-image: url(content/chara/1175581.jpg);
+    background-image: url(content/chara/mond1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -263,7 +264,7 @@ body
 
 .content-panel:nth-child(4)
 {
-    background-image: url(content/chara/1175593\ \(1\).png);
+    background-image: url(content/chara/mond13.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -272,7 +273,7 @@ body
 
 .content-panel:nth-child(5)
 {
-    background-image: url(content/chara/wp8657140-liyue-wallpapers.png);
+    background-image: url(content/chara/Mondstadt.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -418,6 +419,7 @@ body
         align-items: center;
         justify-content: center;
         order: 2;
+        visibility: hidden;
     }
 
     .left-arr .link-char
