@@ -68,7 +68,7 @@ body
 
 .char-banner
 {
-    background-image: url(content/chara/monds.jpg);
+    background-image: url(https://chipper-hotteok-6a922f.netlify.app/content/chara/monds.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -83,7 +83,7 @@ body
 {
     height: 100%;
     width: 100%;
-    /* background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/character/wp9550691-genshin-impact-inazuma-wallpapers.jpg'); */
+    /* background-image: url(https://chipper-hotteok-6a922f.netlify.app/'https://ornate-kulfi-0f8d23.netlify.app/assets/character/wp9550691-genshin-impact-inazuma-wallpapers.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -248,7 +248,7 @@ body
 
 .content-panel:nth-child(1)
 {
-    background-image: url(content/chara/mondo2.png);
+    background-image: url(https://chipper-hotteok-6a922f.netlify.app/content/chara/mondo2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -257,7 +257,7 @@ body
 
 .content-panel:nth-child(2)
 {
-    background-image: url(content/chara/monds.jpg);
+    background-image: url(https://chipper-hotteok-6a922f.netlify.app/content/chara/monds.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -266,7 +266,7 @@ body
 
 .content-panel:nth-child(3)
 {
-    background-image: url(content/chara/mond1.png);
+    background-image: url(https://chipper-hotteok-6a922f.netlify.app/content/chara/mond1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -275,7 +275,7 @@ body
 
 .content-panel:nth-child(4)
 {
-    background-image: url(content/chara/mond13.png);
+    background-image: url(https://chipper-hotteok-6a922f.netlify.app/content/chara/mond13.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -284,7 +284,7 @@ body
 
 .content-panel:nth-child(5)
 {
-    background-image: url(content/chara/Mondstadt.webp);
+    background-image: url(https://chipper-hotteok-6a922f.netlify.app/content/chara/Mondstadt.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -403,7 +403,7 @@ body
     {
         height: 100%;
         width: 100%;
-        /* background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/character/wp9550691-genshin-impact-inazuma-wallpapers.jpg'); */
+        /* background-image: url(https://chipper-hotteok-6a922f.netlify.app/'https://ornate-kulfi-0f8d23.netlify.app/assets/character/wp9550691-genshin-impact-inazuma-wallpapers.jpg'); */
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;

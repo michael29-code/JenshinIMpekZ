@@ -68,7 +68,7 @@ body
 
 .char-banner
 {
-    background-image: url(content/chara/genshin-impact-wallpapers-7.jpg);
+    background-image: url(https://chipper-hotteok-6a922f.netlify.app/content/chara/genshin-impact-wallpapers-7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -83,7 +83,7 @@ body
 {
     height: 100%;
     width: 100%;
-    /* background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/character/wp9550691-genshin-impact-inazuma-wallpapers.jpg'); */
+    /* background-image: url(https://chipper-hotteok-6a922f.netlify.app/'https://ornate-kulfi-0f8d23.netlify.app/assets/character/wp9550691-genshin-impact-inazuma-wallpapers.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -254,7 +254,7 @@ body
 
 .content-panel:nth-child(1)
 {
-    background-image: url(content/chara/wp11396530-sumeru-wallpapers.png);
+    background-image: url(https://chipper-hotteok-6a922f.netlify.app/content/chara/wp11396530-sumeru-wallpapers.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -263,7 +263,7 @@ body
 
 .content-panel:nth-child(2)
 {
-    background-image: url(content/chara/wp11396541-sumeru-wallpapers.png);
+    background-image: url(https://chipper-hotteok-6a922f.netlify.app/content/chara/wp11396541-sumeru-wallpapers.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -272,7 +272,7 @@ body
 
 .content-panel:nth-child(3)
 {
-    background-image: url(content/chara/wp11396543-sumeru-wallpapers.jpg);
+    background-image: url(https://chipper-hotteok-6a922f.netlify.app/content/chara/wp11396543-sumeru-wallpapers.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -281,7 +281,7 @@ body
 
 .content-panel:nth-child(4)
 {
-    background-image: url(content/chara/8711158.png);
+    background-image: url(https://chipper-hotteok-6a922f.netlify.app/content/chara/8711158.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -290,7 +290,7 @@ body
 
 .content-panel:nth-child(5)
 {
-    background-image: url(content/chara/genshin-impact-wallpapers-7.jpg);
+    background-image: url(https://chipper-hotteok-6a922f.netlify.app/content/chara/genshin-impact-wallpapers-7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -409,7 +409,7 @@ body
     {
         height: 100%;
         width: 100%;
-        /* background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/character/wp9550691-genshin-impact-inazuma-wallpapers.jpg'); */
+        /* background-image: url(https://chipper-hotteok-6a922f.netlify.app/'https://ornate-kulfi-0f8d23.netlify.app/assets/character/wp9550691-genshin-impact-inazuma-wallpapers.jpg'); */
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;

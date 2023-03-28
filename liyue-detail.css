@@ -39,7 +39,7 @@ body {
     width: 100vw;
     height: 100vh;
 background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url(content/chara/1175581.jpg);
+            rgba(0, 0, 0, 0.5)), url(https://chipper-hotteok-6a922f.netlify.app/content/chara/1175581.jpg);
     display: flex;
     flex-direction: column;
     align-items: center;
