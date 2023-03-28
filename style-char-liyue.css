@@ -68,7 +68,7 @@ body
 
 .char-banner
 {
-    background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/character/wp9550691-genshin-impact-inazuma-wallpapers.jpg');
+    background-image: url(content/chara/1175581.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -156,26 +156,6 @@ body
     align-items: center;
 }
 
-#maps1 {
-    background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/bg-maps-1.svg');
-    background-position: center center;
-}
-
-#maps2 {
-    background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/bg-maps-2.svg');
-    background-position: center center;
-}
-
-#maps3 {
-    background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/bg-home-section2.png');
-    background-position: center center;
-}
-
-#maps4 {
-    background-position: center center;
-    background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/bg-maps-4.svg');
-}
-
 .banner-chara h1
 {
     color: #fff;
@@ -256,7 +236,7 @@ body
 
 .content-panel:nth-child(1)
 {
-    background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/character/1161814.jpg');
+    background-image: url(content/chara/1175582.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -265,7 +245,7 @@ body
 
 .content-panel:nth-child(2)
 {
-    background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/character/1160737.jpg');
+    background-image: url(content/chara/wp9498570-genshin-impact-liyue-wallpapers.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -274,7 +254,7 @@ body
 
 .content-panel:nth-child(3)
 {
-    background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/character/wp9550691-genshin-impact-inazuma-wallpapers.jpg');
+    background-image: url(content/chara/1175581.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -283,7 +263,7 @@ body
 
 .content-panel:nth-child(4)
 {
-    background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/character/1920x1080-33980-Inazuma-Genshin-ImpactInazuma-Genshin-Impact-4k.jpg');
+    background-image: url(content/chara/1175593\ \(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -292,7 +272,7 @@ body
 
 .content-panel:nth-child(5)
 {
-    background-image: url('https://ornate-kulfi-0f8d23.netlify.app/assets/character/9a54cf6198391bee3fb7408f42a781f2_5201112729941600074.png');
+    background-image: url(content/chara/wp8657140-liyue-wallpapers.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
