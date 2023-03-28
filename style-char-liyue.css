@@ -227,11 +227,10 @@ body
     /* object-position: 1p; */
 }
 
-.content-panel:nth-child(2) .img-content img 
+.content-panel:nth-child(1) .img-content img 
 {
-    object-position: 60%;
+    object-position: 90%;
 }
-
 
 .content-panel:nth-child(5) .img-content img 
 {
@@ -430,7 +429,6 @@ body
         font-size: 2em;
         text-align: center;
     }
-
     .left-arr
     {
         width: 50%;
@@ -532,6 +530,10 @@ body
         object-position: top;
     }
 
+    .content-panel:nth-child(1) .img-content img 
+    {
+        object-position: top;
+    }
 
     .content-panel:nth-child(5) .img-content img 
     {
