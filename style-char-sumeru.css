@@ -68,7 +68,7 @@ body
 
 .char-banner
 {
-    background-image: url(content/chara/monds.jpg);
+    background-image: url(content/chara/genshin-impact-wallpapers-7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -110,7 +110,6 @@ body
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    visibility: hidden;
 }
 
 .left-arr a
@@ -138,6 +137,7 @@ body
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    visibility: hidden;
 }
 
 .right-arr a
@@ -208,25 +208,32 @@ body
     /* object-position: 1p; */
 }
 
-.content-panel .img-content img 
+.content-panel:nth-child(1) .img-content img 
 {
-    margin-top: 60px;
+    object-position: 40%;
 }
 
 .content-panel:nth-child(2) .img-content img 
 {
-    margin-top: 0;
+    object-position: 60%;
 }
 
-.content-panel:nth-child(1) .img-content img 
+.content-panel:nth-child(4) .img-content img 
 {
-    object-position: 20%;
+    object-position: 80%;
 }
+
 
 .content-panel:nth-child(5) .img-content img 
 {
     margin-top: 42px;
 }
+
+.content-panel:nth-child(3) .img-content img 
+{
+    object-position: top top;
+}
+
 
 .content
 {
@@ -247,7 +254,7 @@ body
 
 .content-panel:nth-child(1)
 {
-    background-image: url(content/chara/mondo2.png);
+    background-image: url(content/chara/wp11396530-sumeru-wallpapers.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -256,7 +263,7 @@ body
 
 .content-panel:nth-child(2)
 {
-    background-image: url(content/chara/monds.jpg);
+    background-image: url(content/chara/wp11396541-sumeru-wallpapers.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -265,7 +272,7 @@ body
 
 .content-panel:nth-child(3)
 {
-    background-image: url(content/chara/mond1.png);
+    background-image: url(content/chara/wp11396543-sumeru-wallpapers.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -274,7 +281,7 @@ body
 
 .content-panel:nth-child(4)
 {
-    background-image: url(content/chara/mond13.png);
+    background-image: url(content/chara/8711158.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -283,7 +290,7 @@ body
 
 .content-panel:nth-child(5)
 {
-    background-image: url(content/chara/Mondstadt.webp);
+    background-image: url(content/chara/genshin-impact-wallpapers-7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -429,7 +436,6 @@ body
         align-items: center;
         justify-content: center;
         order: 2;
-        visibility: hidden;
     }
 
     .left-arr .link-char
@@ -454,6 +460,7 @@ body
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        visibility: hidden;
     }
 
     .right-arr .link-char

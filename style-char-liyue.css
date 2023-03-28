@@ -212,11 +212,15 @@ body
     object-position: 90%;
 }
 
-.content-panel:nth-child(5) .img-content img 
+.content-panel:nth-child(2) .img-content img 
 {
-    margin-top: 42px;
+    object-position: 20%;
 }
 
+.content-panel .img-content img 
+{
+    margin-top: 60px;
+}
 .content
 {
     position: absolute;
@@ -254,7 +258,7 @@ body
 
 .content-panel:nth-child(3)
 {
-    background-image: url(content/chara/1175581.jpg);
+    background-image: url(content/chara/wangshuinn.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
