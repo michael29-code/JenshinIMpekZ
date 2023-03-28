@@ -534,6 +534,16 @@ body
         object-position: top;
     }
 
+    .content-panel:nth-child(4) .img-content img 
+    {
+        object-position: top;
+    }
+
+    .content-panel:nth-child(3) .img-content img 
+    {
+        object-position: top;
+    }
+
     .content-panel:nth-child(5) .img-content img 
     {
         margin-top: 0;
