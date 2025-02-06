@@ -17,8 +17,8 @@ const textnamaCharacter = document.getElementById('characterName')
 
 
 let namecharactersUrl = [
-  'Kele',
-  'ayaaa'
+  'Raiden Shogun',
+  'Keqing Yuheng'
 ]
 
 let charactersUrl = [
